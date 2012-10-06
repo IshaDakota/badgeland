@@ -1,0 +1,93 @@
+/* line 3, ../sass/badgeland_demo.scss */
+#breadcrumb {
+  display: none;
+}
+
+/* line 8, ../sass/badgeland_demo.scss */
+h2 {
+  font-family: 'WalkwaySemiBoldRegular';
+}
+
+/* line 13, ../sass/badgeland_demo.scss */
+#block-block-1 .content {
+  border-bottom: 1px solid #000;
+  border-left: 1px groove #000;
+}
+/* line 16, ../sass/badgeland_demo.scss */
+#block-block-1 .content ul {
+  margin: 1em 0.5em;
+  padding: 0;
+}
+/* line 19, ../sass/badgeland_demo.scss */
+#block-block-1 .content ul li {
+  display: block;
+  overflow: hidden;
+  margin: 0 0.5em;
+  font-size: 2.2em;
+  font-family: "JournalRegular";
+  color: #1d265c;
+}
+/* line 26, ../sass/badgeland_demo.scss */
+#block-block-1 .content ul li a {
+  padding: 1em;
+  -webkit-transition: linear-gradient 0.8s;
+  -moz-transition: linear-gradient 0.8s;
+  -ms-transition: linear-gradient 0.8s;
+  -o-transition: linear-gradient 0.8s;
+  transition: linear-gradient 0.8s;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ffffff), color-stop(30%, #dddddd));
+  background-image: -webkit-linear-gradient(left, #ffffff, #dddddd 30%);
+  background-image: -moz-linear-gradient(left, #ffffff, #dddddd 30%);
+  background-image: -o-linear-gradient(left, #ffffff, #dddddd 30%);
+  background-image: -ms-linear-gradient(left, #ffffff, #dddddd 30%);
+  background-image: linear-gradient(left, #ffffff, #dddddd 30%);
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: .9em;
+  text-transform: capitalize;
+  text-decoration: none;
+  text-shadow: 1px 1px #000;
+  line-height: 3.5;
+  color: #cb5a23;
+}
+/* line 38, ../sass/badgeland_demo.scss */
+#block-block-1 .content ul li a:hover {
+  background-color: #b35c00;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ffffff), color-stop(30%, #eeeeee));
+  background-image: -webkit-linear-gradient(left, #ffffff, #eeeeee 30%);
+  background-image: -moz-linear-gradient(left, #ffffff, #eeeeee 30%);
+  background-image: -o-linear-gradient(left, #ffffff, #eeeeee 30%);
+  background-image: -ms-linear-gradient(left, #ffffff, #eeeeee 30%);
+  background-image: linear-gradient(left, #ffffff, #eeeeee 30%);
+}
+
+/* line 49, ../sass/badgeland_demo.scss */
+#block-userpoints-1,
+#block-user-online,
+#block-comment-recent {
+  margin: 20px 0.5%;
+  float: left;
+  width: 29%;
+  height: 200px;
+  padding: 1em;
+  border: 1px solid #969696;
+}
+/* line 56, ../sass/badgeland_demo.scss */
+#block-userpoints-1 h2,
+#block-user-online h2,
+#block-comment-recent h2 {
+  margin-top: 0;
+}
+/* line 61, ../sass/badgeland_demo.scss */
+#block-userpoints-1 .content .item-list ul,
+#block-user-online .content .item-list ul,
+#block-comment-recent .content .item-list ul {
+  list-style-type: none;
+  padding: 0 0 0.25em 1em;
+  margin: 0;
+}
+
+/* line 70, ../sass/badgeland_demo.scss */
+#block-block-2 {
+  border: solid 1px #969696;
+  padding: 0 1em;
+}

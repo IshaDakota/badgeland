@@ -1,0 +1,73 @@
+@import "base";
+
+#breadcrumb { display:none; }
+
+#header #site-name a {
+}
+
+h2 {
+  font-family: 'WalkwaySemiBoldRegular';
+}
+
+#block-block-1 {
+  .content {
+    border-bottom: 1px solid #000;
+    border-left: 1px groove #000;
+    ul {
+      margin: 1em 0.5em;
+      padding: 0;
+      li {
+        display: block;
+        overflow: hidden;
+        margin: 0 0.5em;
+        font-size: 2.2em;
+        font-family: "JournalRegular";
+        color: #1d265c;
+        a {
+          padding: 1em;
+          @include transition(linear-gradient 0.8s);
+          @include background-image(linear-gradient(left, white, #dddddd 30%));
+           font-family: "Helvetica Neue", sans-serif;
+          font-size: .9em;
+          text-transform: capitalize;
+          text-decoration: none;
+          text-shadow: 1px 1px #000;
+          line-height: 3.5;
+          color: #cb5a23;
+        }
+        a:hover {
+          background-color: #b35c00;
+          @include background-image(linear-gradient(left, white, #EEEEEE 30%));
+          }
+      }
+    }
+  }
+}
+
+#block-userpoints-1,
+#block-user-online,
+#block-comment-recent{
+  margin: 20px 0.5%;
+  float: left;
+  width: 29%;
+  height: 200px;
+  padding: 1em;
+  border: 1px solid #969696;
+  h2 {
+    margin-top: 0;
+  }
+  .content {
+    .item-list {
+      ul {
+        list-style-type: none;
+        padding: 0 0 0.25em 1em;
+        margin: 0;
+      }
+    }
+  }
+}
+
+#block-block-2 {
+  border: solid 1px #969696;
+  padding: 0 1em;
+}
