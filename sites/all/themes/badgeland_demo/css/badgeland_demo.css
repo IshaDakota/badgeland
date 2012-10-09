@@ -91,3 +91,35 @@ h2 {
   border: solid 1px #969696;
   padding: 0 1em;
 }
+
+/* line 77, ../sass/badgeland_demo.scss */
+#block-views-exp-resource-library-page .views-widget-filter-uid input, #block-views-exp-resource-library-page .views-widget-filter-created input {
+  width: 12em;
+}
+
+/* line 85, ../sass/badgeland_demo.scss */
+#block-block-3 .content a {
+  background: #e7e7e7;
+  padding: 0.5em 0.7em;
+  margin: 1.5em auto;
+  display: inline-block;
+}
+
+/* line 94, ../sass/badgeland_demo.scss */
+#block-userpoints-meter-1 {
+  background: url("../images/vintage-sign-150.png") no-repeat center top;
+  padding-top: 160px;
+}
+
+/* line 99, ../sass/badgeland_demo.scss */
+.content ul.quest-list {
+  list-style-type: none;
+}
+/* line 102, ../sass/badgeland_demo.scss */
+.content ul.quest-list li a {
+  text-decoration: none;
+  font-family: "Helvetic Neue";
+  font-size: 1.5em;
+  padding: .2em 0 .2em 1.5em;
+  background: url("../images/flag-green.png") no-repeat 0 0;
+}
