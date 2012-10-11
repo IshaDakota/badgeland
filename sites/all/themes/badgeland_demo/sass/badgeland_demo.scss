@@ -2,7 +2,28 @@
 
 #breadcrumb { display:none; }
 
+#header {
+  background: url('../images/gray-background.png');
+  #name-and-slogan {
+    margin: 0 0 30px 0;
+    a{
+      color: #FFF;
+      text-shadow: #333 2px 2px 2px;
+    }
+  }
+  #secondary-menu {
+    a {
+      color: #fff;
+    }
+  }
+}
+
 #header #site-name a {
+}
+
+#main-menu-links a{
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 
 h2 {
@@ -20,20 +41,20 @@ h2 {
         display: block;
         overflow: hidden;
         margin: 0 0.5em;
-        font-size: 2.2em;
-        font-family: "JournalRegular";
+        font-size: 1.2em;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         color: #1d265c;
         a {
           padding: 1em;
           @include transition(linear-gradient 0.8s);
           @include background-image(linear-gradient(left, white, #dddddd 30%));
-           font-family: "Helvetica Neue", sans-serif;
-          font-size: .9em;
+           font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+          font-size: 1.25em;
           text-transform: capitalize;
           text-decoration: none;
           text-shadow: 1px 1px #000;
           line-height: 3.5;
-          color: #cb5a23;
+          color: #F0AD4E;
         }
         a:hover {
           background-color: #b35c00;
@@ -44,7 +65,7 @@ h2 {
   }
 }
 
-#block-userpoints-1,
+#block-achievements-achievements-leaderboard,
 #block-user-online,
 #block-comment-recent{
   margin: 20px 0.5%;
@@ -92,7 +113,7 @@ h2 {
 }
 
 #block-userpoints-meter-1 {
-  background: url('../images/vintage-sign-150.png') no-repeat center top;
+  background: url('../images/gamification-badge-150.png') no-repeat center top;
   padding-top: 160px;
 }
 
