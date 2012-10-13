@@ -110,6 +110,14 @@ h2 {
 #block-block-2 {
   border: solid 1px #969696;
   padding: 0 1em;
+  .badge-button {
+    a {
+      background: #e7e7e7;
+      padding: 0.5em 0.7em;
+      margin: 1.5em auto;
+      display: inline-block;
+    }
+  }
 }
 
 #block-views-exp-resource-library-page {

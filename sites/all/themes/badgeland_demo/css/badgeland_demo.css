@@ -134,13 +134,20 @@ h2 {
   border: solid 1px #969696;
   padding: 0 1em;
 }
+/* line 114, ../sass/badgeland_demo.scss */
+#block-block-2 .badge-button a {
+  background: #e7e7e7;
+  padding: 0.5em 0.7em;
+  margin: 1.5em auto;
+  display: inline-block;
+}
 
-/* line 117, ../sass/badgeland_demo.scss */
+/* line 125, ../sass/badgeland_demo.scss */
 #block-views-exp-resource-library-page .views-widget-filter-uid input, #block-views-exp-resource-library-page .views-widget-filter-created input {
   width: 12em;
 }
 
-/* line 125, ../sass/badgeland_demo.scss */
+/* line 133, ../sass/badgeland_demo.scss */
 #block-block-3 .content a {
   background: #e7e7e7;
   padding: 0.5em 0.7em;
@@ -148,17 +155,17 @@ h2 {
   display: inline-block;
 }
 
-/* line 134, ../sass/badgeland_demo.scss */
+/* line 142, ../sass/badgeland_demo.scss */
 #block-userpoints-meter-1 {
   background: url("../images/gamification-badge-150.png") no-repeat center top;
   padding-top: 160px;
 }
 
-/* line 139, ../sass/badgeland_demo.scss */
+/* line 147, ../sass/badgeland_demo.scss */
 .content ul.quest-list {
   list-style-type: none;
 }
-/* line 142, ../sass/badgeland_demo.scss */
+/* line 150, ../sass/badgeland_demo.scss */
 .content ul.quest-list li a {
   text-decoration: none;
   font-family: "Helvetic Neue";
