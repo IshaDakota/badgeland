@@ -160,16 +160,3 @@ h2 {
   background: url("../images/gamification-badge-150.png") no-repeat center top;
   padding-top: 160px;
 }
-
-/* line 147, ../sass/badgeland_demo.scss */
-.content ul.quest-list {
-  list-style-type: none;
-}
-/* line 150, ../sass/badgeland_demo.scss */
-.content ul.quest-list li a {
-  text-decoration: none;
-  font-family: "Helvetic Neue";
-  font-size: 1.5em;
-  padding: .2em 0 .2em 1.5em;
-  background: url("../images/flag-green.png") no-repeat 0 0;
-}
