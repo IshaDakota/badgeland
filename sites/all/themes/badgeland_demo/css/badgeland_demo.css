@@ -21,28 +21,47 @@
   color: #fff;
 }
 
-/* line 24, ../sass/badgeland_demo.scss */
+/* line 26, ../sass/badgeland_demo.scss */
+.region-header #block-user-login div.form-item label {
+  color: #fff;
+}
+/* line 30, ../sass/badgeland_demo.scss */
+.region-header #block-user-login div.item-list {
+  clear: none;
+}
+/* line 32, ../sass/badgeland_demo.scss */
+.region-header #block-user-login div.item-list li a {
+  color: #fff;
+}
+/* line 36, ../sass/badgeland_demo.scss */
+.region-header #block-user-login .form-actions {
+  position: absolute;
+  margin: 15px 0 0 5px;
+  display: inline;
+}
+
+/* line 43, ../sass/badgeland_demo.scss */
 #main-menu-links a {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
 
-/* line 29, ../sass/badgeland_demo.scss */
+/* line 48, ../sass/badgeland_demo.scss */
 h2 {
   font-family: 'WalkwaySemiBoldRegular';
 }
 
-/* line 34, ../sass/badgeland_demo.scss */
+/* line 53, ../sass/badgeland_demo.scss */
 #block-block-1 .content {
   border-bottom: 1px solid #000;
   border-left: 1px groove #000;
 }
-/* line 37, ../sass/badgeland_demo.scss */
+/* line 56, ../sass/badgeland_demo.scss */
 #block-block-1 .content ul {
   margin: 1em 0.5em;
   padding: 0;
 }
-/* line 40, ../sass/badgeland_demo.scss */
+/* line 59, ../sass/badgeland_demo.scss */
 #block-block-1 .content ul li {
   display: block;
   overflow: hidden;
@@ -51,7 +70,7 @@ h2 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #1d265c;
 }
-/* line 47, ../sass/badgeland_demo.scss */
+/* line 66, ../sass/badgeland_demo.scss */
 #block-block-1 .content ul li a {
   padding: 1em;
   -webkit-transition: linear-gradient 0.8s;
@@ -73,7 +92,7 @@ h2 {
   line-height: 3.5;
   color: #F0AD4E;
 }
-/* line 59, ../sass/badgeland_demo.scss */
+/* line 78, ../sass/badgeland_demo.scss */
 #block-block-1 .content ul li a:hover {
   background-color: #b35c00;
   background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ffffff), color-stop(30%, #eeeeee));
@@ -84,7 +103,7 @@ h2 {
   background-image: linear-gradient(left, #ffffff, #eeeeee 30%);
 }
 
-/* line 70, ../sass/badgeland_demo.scss */
+/* line 89, ../sass/badgeland_demo.scss */
 #block-achievements-achievements-leaderboard,
 #block-user-online,
 #block-comment-recent {
@@ -95,13 +114,13 @@ h2 {
   padding: 1em;
   border: 1px solid #969696;
 }
-/* line 77, ../sass/badgeland_demo.scss */
+/* line 96, ../sass/badgeland_demo.scss */
 #block-achievements-achievements-leaderboard h2,
 #block-user-online h2,
 #block-comment-recent h2 {
   margin-top: 0;
 }
-/* line 82, ../sass/badgeland_demo.scss */
+/* line 101, ../sass/badgeland_demo.scss */
 #block-achievements-achievements-leaderboard .content .item-list ul,
 #block-user-online .content .item-list ul,
 #block-comment-recent .content .item-list ul {
@@ -110,18 +129,18 @@ h2 {
   margin: 0;
 }
 
-/* line 91, ../sass/badgeland_demo.scss */
+/* line 110, ../sass/badgeland_demo.scss */
 #block-block-2 {
   border: solid 1px #969696;
   padding: 0 1em;
 }
 
-/* line 98, ../sass/badgeland_demo.scss */
+/* line 117, ../sass/badgeland_demo.scss */
 #block-views-exp-resource-library-page .views-widget-filter-uid input, #block-views-exp-resource-library-page .views-widget-filter-created input {
   width: 12em;
 }
 
-/* line 106, ../sass/badgeland_demo.scss */
+/* line 125, ../sass/badgeland_demo.scss */
 #block-block-3 .content a {
   background: #e7e7e7;
   padding: 0.5em 0.7em;
@@ -129,17 +148,17 @@ h2 {
   display: inline-block;
 }
 
-/* line 115, ../sass/badgeland_demo.scss */
+/* line 134, ../sass/badgeland_demo.scss */
 #block-userpoints-meter-1 {
   background: url("../images/gamification-badge-150.png") no-repeat center top;
   padding-top: 160px;
 }
 
-/* line 120, ../sass/badgeland_demo.scss */
+/* line 139, ../sass/badgeland_demo.scss */
 .content ul.quest-list {
   list-style-type: none;
 }
-/* line 123, ../sass/badgeland_demo.scss */
+/* line 142, ../sass/badgeland_demo.scss */
 .content ul.quest-list li a {
   text-decoration: none;
   font-family: "Helvetic Neue";

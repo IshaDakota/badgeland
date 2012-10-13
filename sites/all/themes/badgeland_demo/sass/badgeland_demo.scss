@@ -21,6 +21,25 @@
 #header #site-name a {
 }
 
+.region-header #block-user-login {
+  div.form-item {
+    label {
+      color: #fff;
+    }
+  }
+  div.item-list {
+   clear: none;
+   li a {
+    color: #fff;
+   }
+  }
+  .form-actions {
+    position: absolute;
+    margin: 15px 0 0 5px;
+    display: inline;
+  }
+}
+
 #main-menu-links a{
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
