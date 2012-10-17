@@ -1,0 +1,3 @@
+[submodule "sites/all/modules/gamification_badge"]
+	path = sites/all/modules/gamification_badge
+	url = ssh://git@bitbucket.org/IshaDakota/gamification_badge.git
